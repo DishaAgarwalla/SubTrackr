@@ -1,0 +1,228 @@
+.page {
+  max-width: 1100px;
+  animation: fadeUp 0.4s ease;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 32px;
+}
+
+.greeting {
+  font-size: 28px;
+  font-family: var(--font-display);
+  color: var(--text-primary);
+}
+
+.subGreeting {
+  color: var(--text-secondary);
+  font-size: 14px;
+  margin-top: 4px;
+}
+
+.statsGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.statCard {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 20px;
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+  animation: fadeUp 0.4s ease both;
+  transition: border-color 0.2s, transform 0.2s;
+}
+
+.statCard:hover {
+  transform: translateY(-2px);
+}
+
+.statIcon {
+  width: 44px; height: 44px;
+  border-radius: 12px;
+  display: grid;
+  place-items: center;
+  flex-shrink: 0;
+}
+
+.statLabel {
+  font-size: 12px;
+  color: var(--text-secondary);
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-bottom: 4px;
+}
+
+.statValue {
+  font-family: var(--font-display);
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.statSub {
+  font-size: 12px;
+  color: var(--text-muted);
+  margin-top: 4px;
+}
+
+.grid2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+.card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 24px;
+}
+
+.cardHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.cardTitle {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 15px;
+  font-family: var(--font-display);
+  color: var(--text-primary);
+}
+
+.cardBadge {
+  font-size: 11px;
+  font-weight: 600;
+  padding: 3px 8px;
+  border-radius: 20px;
+}
+
+.seeAll {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 13px;
+  color: var(--accent);
+  background: none;
+  font-family: var(--font-body);
+  transition: gap 0.2s;
+}
+
+.seeAll:hover { gap: 8px; }
+
+.emptySmall {
+  text-align: center;
+  padding: 24px;
+  color: var(--text-muted);
+  font-size: 14px;
+}
+
+/* Wasted */
+.wastedList { display: flex; flex-direction: column; gap: 12px; }
+
+.wastedItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px;
+  background: var(--red-bg);
+  border: 1px solid rgba(255,77,109,0.15);
+  border-radius: var(--radius-sm);
+}
+
+.wastedLeft { display: flex; align-items: center; gap: 10px; }
+
+.wastedEmoji { font-size: 20px; }
+
+.wastedName { font-size: 14px; font-weight: 600; color: var(--text-primary); }
+
+.wastedMeta { font-size: 12px; color: var(--red); margin-top: 2px; }
+
+.wastedAmt { font-family: var(--font-display); font-weight: 700; color: var(--red); }
+
+/* Renewals */
+.renewalList { display: flex; flex-direction: column; gap: 10px; }
+
+.renewalItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 12px;
+  border-radius: var(--radius-sm);
+  background: var(--bg-card2);
+  border: 1px solid var(--border);
+}
+
+.renewalLeft { display: flex; align-items: center; gap: 10px; font-size: 18px; }
+
+.renewalName { font-size: 14px; font-weight: 500; color: var(--text-primary); }
+
+.renewalDate { font-size: 12px; color: var(--text-muted); }
+
+.renewalRight { display: flex; align-items: center; gap: 8px; }
+
+.renewalAmt { font-weight: 600; font-size: 14px; }
+
+.daysTag {
+  font-size: 11px;
+  font-weight: 700;
+  padding: 2px 7px;
+  border-radius: 20px;
+}
+
+/* Categories */
+.categoryGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+}
+
+.catItem { }
+
+.catTop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 13px;
+  color: var(--text-secondary);
+  margin-bottom: 6px;
+}
+
+.catAmt { font-weight: 600; color: var(--text-primary); }
+
+.catBar {
+  height: 6px;
+  background: var(--bg-hover);
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.catBarFill {
+  height: 100%;
+  border-radius: 3px;
+  transition: width 0.8s ease;
+}
+
+.catPct {
+  font-size: 11px;
+  color: var(--text-muted);
+  margin-top: 4px;
+}
+
+/* Skeleton */
+.skeletonHeader { height: 60px; border-radius: var(--radius); margin-bottom: 32px; }
+.skeletonCard { height: 100px; border-radius: var(--radius); }
