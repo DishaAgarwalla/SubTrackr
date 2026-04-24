@@ -63,14 +63,21 @@ It helps users monitor spending, get renewal alerts, and avoid unnecessary charg
 git clone https://github.com/DishaAgarwalla/SubTrackr.git
 cd SubTrackr
 ```
-🤝 Contributing
+## 👩‍💻 Author
+
+Disha Agarwalla
+
+GitHub: https://github.com/DishaAgarwalla
+
+
+## 🤝 Contributing
 
 Contributions are welcome! Feel free to fork the repository and submit a pull request.
 
-📬 Contact
+## 📬 Contact
 
 Feel free to reach out for feedback or collaboration.
 
-⭐ Show your support
+## ⭐ Show your support
 
 If you like this project, consider giving it a star!
