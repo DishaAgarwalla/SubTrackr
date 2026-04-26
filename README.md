@@ -1,4 +1,4 @@
-# 🚀 SubTrackr  Subscription Management System
+# 🚀 SubTrackr - Subscription Management System
 
 A full-stack web application to track, manage, and analyze subscriptions in one place.  
 It helps users monitor spending, get renewal alerts, and avoid unnecessary charges.
