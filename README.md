@@ -8,7 +8,7 @@ It helps users monitor spending, get renewal alerts, and avoid unnecessary charg
 ## 📌 Features
 
 ### 🔐 Authentication
-- User registration and login  
+- User registration and login 
 - Secure authentication with protected routes  
 - Session handling  
 
