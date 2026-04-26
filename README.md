@@ -5,7 +5,7 @@ It helps users monitor spending, get renewal alerts, and avoid unnecessary charg
 
 ---
 
-## 📌 Feature
+## 📌 Features
 
 ### 🔐 Authentication
 - User registration and login 
