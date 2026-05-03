@@ -1,6 +1,6 @@
 const db = require("../config/db");
 
-// ─── Get All Alerts for User ──────────────────────────────
+// ─── Get All Alerts for User ─────────────────────────────
 const getAlerts = async (req, res) => {
   try {
     const [alerts] = await db.promise().query(
