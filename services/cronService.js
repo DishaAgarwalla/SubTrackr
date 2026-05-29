@@ -1,4 +1,4 @@
-const db = require("../config/db");
+const db = require("../config/db"); 
 const { sendRenewalEmail } = require("./emailService");
 
 const ALERT_DAYS = [3, 7]; // Alert 3 and 7 days before renewal
