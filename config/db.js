@@ -13,4 +13,4 @@ const pool = mysql.createPool({
   timezone: "+05:30", // IST
 });
 
-module.exports = pool;
+module.exports = pool; 
