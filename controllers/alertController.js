@@ -10,7 +10,7 @@ const getAlerts = async (req, res) => {
        WHERE a.user_id = ?
        ORDER BY a.scheduled_at DESC
        LIMIT 50`,
-      [req.user.id]
+      [req.user.id] 
     );
 
     const unreadCount = alerts.filter((a) => !a.is_read).length;
